@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C3807BA7-EB44-32EA-8D56-ED296215D7F9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>UpdateAssimpLibsDebugSymbolsAndDLLs</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\build\include;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\build;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\.;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\zlib;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\build\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>							</Message>
+      <Command>setlocal
+C:\CMake\bin\cmake.exe -E copy C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/code/Release/assimp--mt.dll C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/bin64/assimp--mt.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/code/Release/assimp--mt.exp C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/lib64/assimp--mt.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/code/Release/assimp--mt.lib C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/lib64/assimp--mt.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/code/Debug/assimp--mtd.dll C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/bin64/assimp--mtd.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/code/Debug/assimp--mtd.exp C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/lib64/assimp--mtd.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/code/Debug/assimp--mtd.ilk C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/lib64/assimp--mtd.ilk
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/code/Debug/assimp--mtd.lib C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/lib64/assimp--mtd.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/code/Debug/assimp--mtd.pdb C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/lib64/assimp--mtd.pdb
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\build\include;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\build;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\.;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\zlib;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\build\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>							</Message>
+      <Command>setlocal
+C:\CMake\bin\cmake.exe -E copy C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/code/Release/assimp--mt.dll C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/bin64/assimp--mt.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/code/Release/assimp--mt.exp C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/lib64/assimp--mt.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/code/Release/assimp--mt.lib C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/lib64/assimp--mt.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/code/Debug/assimp--mtd.dll C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/bin64/assimp--mtd.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/code/Debug/assimp--mtd.exp C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/lib64/assimp--mtd.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/code/Debug/assimp--mtd.ilk C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/lib64/assimp--mtd.ilk
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/code/Debug/assimp--mtd.lib C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/lib64/assimp--mtd.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/code/Debug/assimp--mtd.pdb C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/lib64/assimp--mtd.pdb
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -SC:/Users/evan/src/madstyle/xclass/3rdParty/assimp -BC:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build --check-stamp-file C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/CMakeLists.txt;C:\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeParseArguments.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.13\Modules\CheckFunctionExists.cmake;C:\CMake\share\cmake-3.13\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.13\Modules\CheckIncludeFileCXX.cmake;C:\CMake\share\cmake-3.13\Modules\CheckTypeSize.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.13\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\CMakeLists.txt;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\assimp-config-version.cmake.in;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\assimp-config.cmake.in;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\assimp.pc.in;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\assimpTargets-debug.cmake.in;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\assimpTargets-release.cmake.in;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\assimpTargets.cmake.in;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\build\CMakeFiles\3.13.4\CMakeCCompiler.cmake;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\build\CMakeFiles\3.13.4\CMakeCXXCompiler.cmake;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\build\CMakeFiles\3.13.4\CMakeRCCompiler.cmake;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\build\CMakeFiles\3.13.4\CMakeSystem.cmake;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\cmake-modules\FindDirectX.cmake;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\cmake-modules\FindPkgMacros.cmake;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\cmake-modules\FindZLIB.cmake;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\cmake-modules\PrecompiledHeader.cmake;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\cmake-modules\cmake_uninstall.cmake.in;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\cmake\HunterGate.cmake;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\config.h.in;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\revision.h.in;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -SC:/Users/evan/src/madstyle/xclass/3rdParty/assimp -BC:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build --check-stamp-file C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/CMakeLists.txt;C:\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeParseArguments.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.13\Modules\CheckFunctionExists.cmake;C:\CMake\share\cmake-3.13\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.13\Modules\CheckIncludeFileCXX.cmake;C:\CMake\share\cmake-3.13\Modules\CheckTypeSize.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.13\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\CMakeLists.txt;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\assimp-config-version.cmake.in;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\assimp-config.cmake.in;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\assimp.pc.in;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\assimpTargets-debug.cmake.in;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\assimpTargets-release.cmake.in;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\assimpTargets.cmake.in;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\build\CMakeFiles\3.13.4\CMakeCCompiler.cmake;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\build\CMakeFiles\3.13.4\CMakeCXXCompiler.cmake;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\build\CMakeFiles\3.13.4\CMakeRCCompiler.cmake;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\build\CMakeFiles\3.13.4\CMakeSystem.cmake;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\cmake-modules\FindDirectX.cmake;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\cmake-modules\FindPkgMacros.cmake;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\cmake-modules\FindZLIB.cmake;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\cmake-modules\PrecompiledHeader.cmake;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\cmake-modules\cmake_uninstall.cmake.in;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\cmake\HunterGate.cmake;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\config.h.in;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\revision.h.in;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\build\ZERO_CHECK.vcxproj">
+      <Project>{F3AD36CD-8075-387E-840A-8720313185FA}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/CMake/share/cmake-3.13/Modules/FindPackageHandleStandardArgs.cmake
+C:/CMake/share/cmake-3.13/Modules/FindPackageMessage.cmake
+C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/cmake-modules/FindRT.cmake
+C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/code/CMakeLists.txt

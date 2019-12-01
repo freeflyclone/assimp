@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\build\CMakeFiles\daacf18de9377562c7e86bd46a5de1a8\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8F5E2630-9978-325A-ABA5-E836B186A643}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
