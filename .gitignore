@@ -109,3 +109,5 @@ tools/assimp_qt_viewer/ui_mainwindow.h
 Debug
 /build/code/lib64
 /build/contrib/lib64
+Release
+lib64
