@@ -1,5 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{55D1699C-BDDB-3833-A8CD-39C07560592C}"
 	ProjectSection(ProjectDependencies) = postProject
 		{5C35D3F9-7928-3D12-B27A-9B7C1CDA444E} = {5C35D3F9-7928-3D12-B27A-9B7C1CDA444E}
@@ -28,8 +30,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UpdateAssimpLibsDebugSymbol
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vcxproj", "{F3AD36CD-8075-387E-840A-8720313185FA}"
-	ProjectSection(ProjectDependencies) = postProject
-	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "assimp", "code\assimp.vcxproj", "{48042BE5-D087-3B38-BC8D-842393FED62F}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -114,9 +114,10 @@ Global
 		{4104E15C-824F-33EA-B54B-B033C21D25B9}.Release|x64.ActiveCfg = Release|x64
 		{4104E15C-824F-33EA-B54B-B033C21D25B9}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {61E84C30-5A8E-35EB-A69F-DB0A6D5AF251}
-	EndGlobalSection
-	GlobalSection(ExtensibilityAddIns) = postSolution
 	EndGlobalSection
 EndGlobal

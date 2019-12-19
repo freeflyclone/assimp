@@ -21,12 +21,12 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -50,7 +50,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message>							</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 C:\CMake\bin\cmake.exe -E copy C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/code/Release/assimp--mt.dll C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/bin64/assimp--mt.dll
 if %errorlevel% neq 0 goto :cmEnd
@@ -135,7 +136,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message>							</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 C:\CMake\bin\cmake.exe -E copy C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/code/Release/assimp--mt.dll C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/bin64/assimp--mt.dll
 if %errorlevel% neq 0 goto :cmEnd

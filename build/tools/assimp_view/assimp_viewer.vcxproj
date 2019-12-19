@@ -21,12 +21,12 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -81,7 +81,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PreBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 C:\CMake\bin\cmake.exe -E copy_if_different C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/code/lib64/Debug/assimp-vc120-mtd.lib C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/tools/assimp_view/Debug
 if %errorlevel% neq 0 goto :cmEnd
@@ -139,7 +140,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PreBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 C:\CMake\bin\cmake.exe -E copy_if_different C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/code/lib64/Release/assimp-vc120-mt.lib C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/tools/assimp_view/Release
 if %errorlevel% neq 0 goto :cmEnd
