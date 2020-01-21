@@ -50,7 +50,7 @@ ASSIMP_BUILD_NONFREE_C4D_IMPORTER:BOOL=OFF
 ASSIMP_BUILD_SAMPLES:BOOL=OFF
 
 //If the test suite for Assimp is built in addition to the library.
-ASSIMP_BUILD_TESTS:BOOL=OFF
+ASSIMP_BUILD_TESTS:BOOL=ON
 
 //Build your own zlib
 ASSIMP_BUILD_ZLIB:BOOL=OFF
@@ -106,7 +106,7 @@ BUILD_DOCS:BOOL=OFF
 BUILD_FRAMEWORK:BOOL=OFF
 
 //Build package with shared libraries.
-BUILD_SHARED_LIBS:BOOL=OFF
+BUILD_SHARED_LIBS:BOOL=ON
 
 //For backwards compatibility, what version of CMake commands and
 // syntax should this version of CMake try to support.
@@ -115,7 +115,7 @@ CMAKE_BACKWARDS_COMPATIBILITY:STRING=2.4
 //Semicolon separated list of supported configuration types, only
 // supports Debug, Release, MinSizeRel, and RelWithDebInfo, anything
 // else will be ignored.
-CMAKE_CONFIGURATION_TYPES:STRING=Debug;Release
+CMAKE_CONFIGURATION_TYPES:STRING=Debug;Release;MinSizeRel;RelWithDebInfo
 
 //Flags used by the CXX compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=/DWIN32 /D_WINDOWS /W3 /GR /EHsc
@@ -175,7 +175,7 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /INCREMENTAL
 CMAKE_INSTALL_PREFIX:PATH=C:/Program Files/Assimp
 
 //Path to a program.
-CMAKE_LINKER:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio 12.0/VC/bin/x86_amd64/link.exe
+CMAKE_LINKER:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.15.26726/bin/Hostx86/x64/link.exe
 
 //Flags used by the linker during the creation of modules during
 // all build types.
@@ -325,15 +325,6 @@ DirectX_LIBRARY:FILEPATH=C:/Program Files (x86)/Microsoft DirectX SDK (June 2010
 //Single output directory for building all executables.
 EXECUTABLE_OUTPUT_PATH:PATH=
 
-//Path to a file.
-GLUT_INCLUDE_DIR:PATH=GLUT_INCLUDE_DIR-NOTFOUND
-
-//Path to a library.
-GLUT_glut_LIBRARY_DEBUG:FILEPATH=GLUT_glut_LIBRARY_DEBUG-NOTFOUND
-
-//Path to a library.
-GLUT_glut_LIBRARY_RELEASE:FILEPATH=GLUT_glut_LIBRARY_RELEASE-NOTFOUND
-
 //Enable Hunter package manager support
 HUNTER_ENABLED:BOOL=OFF
 
@@ -353,16 +344,10 @@ IGNORE_GIT_HASH:BOOL=OFF
 INJECT_DEBUG_POSTFIX:BOOL=ON
 
 //Single output directory for building all libraries.
-LIBRARY_OUTPUT_PATH:PATH=lib64
+LIBRARY_OUTPUT_PATH:PATH=
 
 //the suffix for the assimp windows library
-LIBRARY_SUFFIX:STRING=-vc120-mt
-
-//OpenGL library for win32
-OPENGL_gl_LIBRARY:STRING=opengl32
-
-//GLU library for win32
-OPENGL_glu_LIBRARY:STRING=glu32
+LIBRARY_SUFFIX:STRING=-vc141-mt
 
 //pkg-config executable
 PKG_CONFIG_EXECUTABLE:FILEPATH=PKG_CONFIG_EXECUTABLE-NOTFOUND
@@ -457,9 +442,9 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //Name of external makefile project generator.
 CMAKE_EXTRA_GENERATOR:INTERNAL=
 //Name of generator.
-CMAKE_GENERATOR:INTERNAL=Visual Studio 12 2013 Win64
+CMAKE_GENERATOR:INTERNAL=Visual Studio 15 2017 Win64
 //Generator instance identifier.
-CMAKE_GENERATOR_INSTANCE:INTERNAL=
+CMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2017/Community
 //Name of generator platform.
 CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
@@ -480,7 +465,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_RC_COMPILER
@@ -546,14 +531,6 @@ DirectX_INCLUDE_DIR-ADVANCED:INTERNAL=1
 DirectX_LIBRARY-ADVANCED:INTERNAL=1
 //x
 DirectX_PREFIX_PATH_INT_CHECK:INTERNAL=C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/;C:/apps_x86/Microsoft DirectX SDK*;C:/Program Files (x86)/Microsoft DirectX SDK*;C:/apps/Microsoft DirectX SDK*;C:/Program Files/Microsoft DirectX SDK*;C:/Program Files (x86)/Windows Kits/8.1;C:\Program Files/Microsoft DirectX SDK*
-//Details about finding OpenGL
-FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[opengl32][c ][v()]
-//ADVANCED property for variable: GLUT_INCLUDE_DIR
-GLUT_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: GLUT_glut_LIBRARY_DEBUG
-GLUT_glut_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: GLUT_glut_LIBRARY_RELEASE
-GLUT_glut_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //Have function fseeko
 HAVE_FSEEKO:INTERNAL=
 //Result of TRY_COMPILE
@@ -570,10 +547,6 @@ IRRXML_INCLUDE_DIR:INTERNAL=C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/co
 IRRXML_LIBRARY:INTERNAL=IrrXML
 //CHECK_TYPE_SIZE: off64_t unknown
 OFF64_T:INTERNAL=
-//ADVANCED property for variable: OPENGL_gl_LIBRARY
-OPENGL_gl_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: OPENGL_glu_LIBRARY
-OPENGL_glu_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
 PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: RT_LIBRARY

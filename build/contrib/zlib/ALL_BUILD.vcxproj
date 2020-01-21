@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|x64">
       <Configuration>Debug</Configuration>
@@ -9,9 +9,18 @@
       <Configuration>Release</Configuration>
       <Platform>x64</Platform>
     </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{55D1699C-BDDB-3833-A8CD-39C07560592C}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
     <ProjectName>ALL_BUILD</ProjectName>
@@ -21,12 +30,22 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -39,6 +58,8 @@
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
@@ -51,6 +72,26 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\build\include;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\build;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\.;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\zlib;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\build\contrib\zlib;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\build\include;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\build;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\.;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\zlib;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\build\contrib\zlib;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
       <AdditionalIncludeDirectories>C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\build\include;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\build;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\.;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\zlib;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\build\contrib\zlib;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
@@ -88,6 +129,32 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/contrib/zlib/CMakeLists.txt;C:\CMake\share\cmake-3.13\Modules\CheckCSourceCompiles.cmake;C:\CMake\share\cmake-3.13\Modules\CheckFunctionExists.cmake;C:\CMake\share\cmake-3.13\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.13\Modules\CheckIncludeFileCXX.cmake;C:\CMake\share\cmake-3.13\Modules\CheckTypeSize.cmake;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\zlib\CMakeLists.txt;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\zlib\zconf.h.cmakein;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\zlib\zlib.pc.cmakein;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\zlib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\build\contrib\zlib\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/contrib/zlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -SC:/Users/evan/src/madstyle/xclass/3rdParty/assimp -BC:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build --check-stamp-file C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/contrib/zlib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/contrib/zlib/CMakeLists.txt;C:\CMake\share\cmake-3.13\Modules\CheckCSourceCompiles.cmake;C:\CMake\share\cmake-3.13\Modules\CheckFunctionExists.cmake;C:\CMake\share\cmake-3.13\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.13\Modules\CheckIncludeFileCXX.cmake;C:\CMake\share\cmake-3.13\Modules\CheckTypeSize.cmake;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\zlib\CMakeLists.txt;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\zlib\zconf.h.cmakein;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\zlib\zlib.pc.cmakein;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\zlib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\build\contrib\zlib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/contrib/zlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -SC:/Users/evan/src/madstyle/xclass/3rdParty/assimp -BC:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build --check-stamp-file C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/contrib/zlib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/contrib/zlib/CMakeLists.txt;C:\CMake\share\cmake-3.13\Modules\CheckCSourceCompiles.cmake;C:\CMake\share\cmake-3.13\Modules\CheckFunctionExists.cmake;C:\CMake\share\cmake-3.13\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.13\Modules\CheckIncludeFileCXX.cmake;C:\CMake\share\cmake-3.13\Modules\CheckTypeSize.cmake;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\zlib\CMakeLists.txt;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\zlib\zconf.h.cmakein;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\zlib\zlib.pc.cmakein;C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\zlib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\build\contrib\zlib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>

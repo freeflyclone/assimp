@@ -53,6 +53,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/code/cmake_install.cmake")
   include("C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/tools/assimp_view/cmake_install.cmake")
   include("C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/tools/assimp_cmd/cmake_install.cmake")
+  include("C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/test/cmake_install.cmake")
 
 endif()
 

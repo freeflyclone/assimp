@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <CustomBuild Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\build\CMakeFiles\cf9656a048f36067ef63272b90014ba9\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>

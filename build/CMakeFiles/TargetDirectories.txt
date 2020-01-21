@@ -16,3 +16,6 @@ C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/tools/assimp_view/CMakeF
 C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/tools/assimp_view/CMakeFiles/INSTALL.dir
 C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir
 C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/tools/assimp_cmd/CMakeFiles/INSTALL.dir
+C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/test/CMakeFiles/unit.dir
+C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/test/CMakeFiles/INSTALL.dir
+C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/test/headercheck/CMakeFiles/INSTALL.dir
