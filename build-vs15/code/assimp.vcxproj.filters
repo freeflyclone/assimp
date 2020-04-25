@@ -1,0 +1,1886 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\Assimp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\CApi\CInterfaceIOWrapper.cpp">
+      <Filter>CApi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\BaseImporter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\BaseProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\PostStepRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\ImporterRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\DefaultIOStream.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\DefaultIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\ZipArchiveIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\Importer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\SGSpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\VertexTriangleAdjacency.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\SpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\SceneCombiner.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\ScenePreprocessor.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\SkeletonMeshBuilder.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\SplitByBoneCountProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\StandardShapes.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\TargetAnimation.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\RemoveComments.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\Subdivision.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\scene.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\Bitmap.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\Version.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\CreateAnimMesh.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\simd.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\DefaultLogger.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\Exporter.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\CApi\AssimpCExport.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\CalcTangentsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\ComputeUVMappingProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\ConvertToLHProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\EmbedTexturesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\FindDegenerates.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\FindInstancesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\FindInvalidDataProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\FixNormalsStep.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\DropFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\GenFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\GenVertexNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\PretransformVertices.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\ImproveCacheLocality.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\JoinVerticesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\LimitBoneWeightsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\RemoveRedundantMaterials.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\RemoveVCProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\SortByPTypeProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\SplitLargeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\TextureTransform.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\TriangulateProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\ValidateDataStructure.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\OptimizeGraph.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\OptimizeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\DeboneProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\ProcessHelper.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\MakeVerboseFormat.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\ScaleProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\ArmaturePopulate.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\GenBoundingBoxesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Material\MaterialSystem.cpp">
+      <Filter>MaterialSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Importer\STEPParser\STEPFileReader.cpp">
+      <Filter>STEPParser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Importer\STEPParser\STEPFileEncoding.cpp">
+      <Filter>STEPParser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\AMF\AMFImporter.cpp">
+      <Filter>AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\AMF\AMFImporter_Geometry.cpp">
+      <Filter>AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\AMF\AMFImporter_Material.cpp">
+      <Filter>AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\AMF\AMFImporter_Postprocess.cpp">
+      <Filter>AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\3DS\3DSConverter.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\3DS\3DSLoader.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\AC\ACLoader.cpp">
+      <Filter>AC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\ASE\ASELoader.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\ASE\ASEParser.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Assbin\AssbinLoader.cpp">
+      <Filter>ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\B3D\B3DImporter.cpp">
+      <Filter>B3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\BVH\BVHLoader.cpp">
+      <Filter>BVH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Collada\ColladaLoader.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Collada\ColladaParser.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\DXF\DXFLoader.cpp">
+      <Filter>DXF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\CSM\CSMLoader.cpp">
+      <Filter>CSM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\HMP\HMPLoader.cpp">
+      <Filter>HMP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Irr\IRRMeshLoader.cpp">
+      <Filter>IRRMESH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Irr\IRRShared.cpp">
+      <Filter>IRR</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Irr\IRRLoader.cpp">
+      <Filter>IRR</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\LWO\LWOAnimation.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\LWO\LWOBLoader.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\LWO\LWOLoader.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\LWO\LWOMaterial.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\LWS\LWSLoader.cpp">
+      <Filter>LWS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\M3D\M3DImporter.cpp">
+      <Filter>M3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\MD2\MD2Loader.cpp">
+      <Filter>MD2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\MD3\MD3Loader.cpp">
+      <Filter>MD3</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\MD5\MD5Loader.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\MD5\MD5Parser.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\MDC\MDCLoader.cpp">
+      <Filter>MDC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\MDL\MDLLoader.cpp">
+      <Filter>MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\MDL\MDLMaterialLoader.cpp">
+      <Filter>MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\NFF\NFFLoader.cpp">
+      <Filter>NFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\NDO\NDOLoader.cpp">
+      <Filter>NDO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\OFF\OFFLoader.cpp">
+      <Filter>OFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Obj\ObjFileImporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Obj\ObjFileMtlImporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Obj\ObjFileParser.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Ogre\OgreImporter.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Ogre\OgreStructs.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Ogre\OgreBinarySerializer.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Ogre\OgreXmlSerializer.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Ogre\OgreMaterial.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\OpenGEX\OpenGEXImporter.cpp">
+      <Filter>OPENGEX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Ply\PlyLoader.cpp">
+      <Filter>PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Ply\PlyParser.cpp">
+      <Filter>PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\MS3D\MS3DLoader.cpp">
+      <Filter>MS3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\COB\COBLoader.cpp">
+      <Filter>COB</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Blender\BlenderLoader.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Blender\BlenderDNA.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Blender\BlenderScene.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Blender\BlenderModifier.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Blender\BlenderBMesh.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Blender\BlenderTessellator.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Blender\BlenderCustomData.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Importer\IFC\IFCLoader.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Importer\IFC\IFCReaderGen1_2x3.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Importer\IFC\IFCReaderGen2_2x3.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Importer\IFC\IFCUtil.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Importer\IFC\IFCGeometry.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Importer\IFC\IFCMaterial.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Importer\IFC\IFCProfile.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Importer\IFC\IFCCurve.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Importer\IFC\IFCBoolean.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Importer\IFC\IFCOpenings.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\XGL\XGLLoader.cpp">
+      <Filter>XGL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\FBX\FBXImporter.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\FBX\FBXParser.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\FBX\FBXTokenizer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\FBX\FBXConverter.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\FBX\FBXUtil.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\FBX\FBXDocument.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\FBX\FBXProperties.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\FBX\FBXMeshGeometry.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\FBX\FBXMaterial.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\FBX\FBXModel.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\FBX\FBXAnimation.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\FBX\FBXNodeAttribute.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\FBX\FBXDeformer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\FBX\FBXBinaryTokenizer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\FBX\FBXDocumentUtil.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Q3D\Q3DLoader.cpp">
+      <Filter>Q3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Q3BSP\Q3BSPFileParser.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Q3BSP\Q3BSPFileImporter.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Raw\RawLoader.cpp">
+      <Filter>RAW</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\SIB\SIBImporter.cpp">
+      <Filter>SIB</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\SMD\SMDLoader.cpp">
+      <Filter>SMD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\STL\STLLoader.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Terragen\TerragenLoader.cpp">
+      <Filter>TERRAGEN</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Unreal\UnrealLoader.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\X\XFileImporter.cpp">
+      <Filter>X</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\X\XFileParser.cpp">
+      <Filter>X</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\X3D\X3DImporter.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\X3D\X3DImporter_Geometry2D.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\X3D\X3DImporter_Geometry3D.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\X3D\X3DImporter_Group.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\X3D\X3DImporter_Light.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\X3D\X3DImporter_Metadata.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\X3D\X3DImporter_Networking.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\X3D\X3DImporter_Postprocess.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\X3D\X3DImporter_Rendering.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\X3D\X3DImporter_Shape.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\X3D\X3DImporter_Texturing.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\X3D\FIReader.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\X3D\X3DVocabulary.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\glTF\glTFCommon.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\glTF\glTFImporter.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\glTF2\glTF2Importer.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\3MF\D3MFImporter.cpp">
+      <Filter>3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\3MF\D3MFOpcPackage.cpp">
+      <Filter>3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\MMD\MMDImporter.cpp">
+      <Filter>MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\MMD\MMDPmxParser.cpp">
+      <Filter>MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Importer\StepFile\StepFileImporter.cpp">
+      <Filter>STEP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Importer\StepFile\StepFileGen1.cpp">
+      <Filter>STEP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Importer\StepFile\StepFileGen2.cpp">
+      <Filter>STEP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Importer\StepFile\StepFileGen3.cpp">
+      <Filter>STEP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\3DS\3DSExporter.cpp">
+      <Filter>3DS_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Assbin\AssbinExporter.cpp">
+      <Filter>ASSBIN_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Assxml\AssxmlExporter.cpp">
+      <Filter>ASSXML_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Collada\ColladaExporter.cpp">
+      <Filter>COLLADA_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\M3D\M3DExporter.cpp">
+      <Filter>M3D_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Obj\ObjExporter.cpp">
+      <Filter>OBJ_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\OpenGEX\OpenGEXExporter.cpp">
+      <Filter>OPENGEX_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Ply\PlyExporter.cpp">
+      <Filter>PLY_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\FBX\FBXExporter.cpp">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\FBX\FBXExportNode.cpp">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\FBX\FBXExportProperty.cpp">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\STL\STLExporter.cpp">
+      <Filter>STL_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\X\XFileExporter.cpp">
+      <Filter>X_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\X3D\X3DExporter.cpp">
+      <Filter>X3D_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\glTF\glTFExporter.cpp">
+      <Filter>GLTF_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\glTF2\glTF2Exporter.cpp">
+      <Filter>GLTF_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\3MF\D3MFExporter.cpp">
+      <Filter>3MF_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Assjson\cencode.c">
+      <Filter>ASSJSON_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Assjson\json_exporter.cpp">
+      <Filter>ASSJSON_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Assjson\mesh_splitter.cpp">
+      <Filter>ASSJSON_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Step\StepExporter.cpp">
+      <Filter>STEP_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\unzip\ioapi.c">
+      <Filter>Contrib\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\unzip\unzip.c">
+      <Filter>Contrib\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\poly2tri\poly2tri\common\shapes.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\poly2tri\poly2tri\sweep\cdt.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\poly2tri\poly2tri\sweep\sweep.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\clipper\clipper.cpp">
+      <Filter>Contrib\Clipper</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\openddlparser\code\OpenDDLParser.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\openddlparser\code\DDLNode.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\openddlparser\code\OpenDDLCommon.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\openddlparser\code\OpenDDLExport.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\openddlparser\code\Value.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\openddlparser\code\OpenDDLStream.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\Open3DGC\o3dgcArithmeticCodec.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\Open3DGC\o3dgcDynamicVectorDecoder.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\Open3DGC\o3dgcDynamicVectorEncoder.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\Open3DGC\o3dgcTools.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\Open3DGC\o3dgcTriangleFans.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\zip\src\zip.c">
+      <Filter>ziplib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\CApi\CInterfaceIOWrapper.h">
+      <Filter>CApi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\BaseProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\Importer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\ScenePrivate.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\DefaultProgressHandler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\PolyTools.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\IFF.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\VertexTriangleAdjacency.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\ScenePreprocessor.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\SplitByBoneCountProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\TargetAnimation.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\simd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\DefaultLogger.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\LogStream.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\Logger.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\NullLogger.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\Win32DebugLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\FileLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Common\StdOStreamLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\BlobIOSystem.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\CalcTangentsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\ComputeUVMappingProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\ConvertToLHProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\EmbedTexturesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\FindDegenerates.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\FindInstancesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\FindInvalidDataProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\FixNormalsStep.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\DropFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\GenFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\GenVertexNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\PretransformVertices.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\ImproveCacheLocality.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\JoinVerticesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\LimitBoneWeightsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\RemoveRedundantMaterials.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\RemoveVCProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\SortByPTypeProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\SplitLargeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\TextureTransform.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\TriangulateProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\ValidateDataStructure.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\OptimizeGraph.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\OptimizeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\DeboneProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\ProcessHelper.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\MakeVerboseFormat.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\ScaleProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\ArmaturePopulate.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\PostProcessing\GenBoundingBoxesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Material\MaterialSystem.h">
+      <Filter>MaterialSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Importer\STEPParser\STEPFileReader.h">
+      <Filter>STEPParser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Importer\STEPParser\STEPFileEncoding.h">
+      <Filter>STEPParser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\AMF\AMFImporter.hpp">
+      <Filter>AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\AMF\AMFImporter_Macro.hpp">
+      <Filter>AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\AMF\AMFImporter_Node.hpp">
+      <Filter>AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\3DS\3DSHelper.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\3DS\3DSLoader.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\AC\ACLoader.h">
+      <Filter>AC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\ASE\ASELoader.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\ASE\ASEParser.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Assbin\AssbinLoader.h">
+      <Filter>ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\B3D\B3DImporter.h">
+      <Filter>B3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\BVH\BVHLoader.h">
+      <Filter>BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Collada\ColladaHelper.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Collada\ColladaLoader.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Collada\ColladaParser.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\DXF\DXFLoader.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\DXF\DXFHelper.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\CSM\CSMLoader.h">
+      <Filter>CSM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\HMP\HMPFileData.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\HMP\HMPLoader.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\HMP\HalfLifeFileData.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Irr\IRRMeshLoader.h">
+      <Filter>IRRMESH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Irr\IRRShared.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Irr\IRRLoader.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\LWO\LWOAnimation.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\LWO\LWOFileData.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\LWO\LWOLoader.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\LWS\LWSLoader.h">
+      <Filter>LWS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\M3D\M3DMaterials.h">
+      <Filter>M3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\M3D\M3DImporter.h">
+      <Filter>M3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\M3D\m3d.h">
+      <Filter>M3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\MD2\MD2FileData.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\MD2\MD2Loader.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\MD2\MD2NormalTable.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\MD3\MD3FileData.h">
+      <Filter>MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\MD3\MD3Loader.h">
+      <Filter>MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\MD5\MD5Loader.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\MD5\MD5Parser.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\MDC\MDCFileData.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\MDC\MDCLoader.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\MDC\MDCNormalTable.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\MDL\MDLDefaultColorMap.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\MDL\MDLFileData.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\MDL\MDLLoader.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\NFF\NFFLoader.h">
+      <Filter>NFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\NDO\NDOLoader.h">
+      <Filter>NDO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\OFF\OFFLoader.h">
+      <Filter>OFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Obj\ObjFileData.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Obj\ObjFileImporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Obj\ObjFileMtlImporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Obj\ObjFileParser.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Obj\ObjTools.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Ogre\OgreImporter.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Ogre\OgreStructs.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Ogre\OgreParsingUtils.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Ogre\OgreBinarySerializer.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Ogre\OgreXmlSerializer.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\OpenGEX\OpenGEXImporter.h">
+      <Filter>OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\OpenGEX\OpenGEXStructs.h">
+      <Filter>OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Ply\PlyLoader.h">
+      <Filter>PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Ply\PlyParser.h">
+      <Filter>PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\MS3D\MS3DLoader.h">
+      <Filter>MS3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\COB\COBLoader.h">
+      <Filter>COB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\COB\COBScene.h">
+      <Filter>COB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Blender\BlenderLoader.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Blender\BlenderDNA.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Blender\BlenderDNA.inl">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Blender\BlenderScene.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Blender\BlenderSceneGen.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Blender\BlenderIntermediate.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Blender\BlenderModifier.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Blender\BlenderBMesh.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Blender\BlenderTessellator.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Blender\BlenderCustomData.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Importer\IFC\IFCLoader.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Importer\IFC\IFCReaderGen_2x3.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Importer\IFC\IFCUtil.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\XGL\XGLLoader.h">
+      <Filter>XGL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\FBX\FBXCompileConfig.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\FBX\FBXImporter.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\FBX\FBXParser.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\FBX\FBXTokenizer.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\FBX\FBXImportSettings.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\FBX\FBXConverter.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\FBX\FBXUtil.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\FBX\FBXDocument.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\FBX\FBXProperties.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\FBX\FBXMeshGeometry.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\FBX\FBXCommon.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Q3D\Q3DLoader.h">
+      <Filter>Q3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Q3BSP\Q3BSPFileData.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Q3BSP\Q3BSPFileParser.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Q3BSP\Q3BSPFileImporter.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Raw\RawLoader.h">
+      <Filter>RAW</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\SIB\SIBImporter.h">
+      <Filter>SIB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\SMD\SMDLoader.h">
+      <Filter>SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\STL\STLLoader.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Terragen\TerragenLoader.h">
+      <Filter>TERRAGEN</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Unreal\UnrealLoader.h">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\X\XFileHelper.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\X\XFileImporter.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\X\XFileParser.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\X3D\X3DImporter.hpp">
+      <Filter>X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\X3D\X3DImporter_Macro.hpp">
+      <Filter>X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\X3D\X3DImporter_Node.hpp">
+      <Filter>X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\X3D\FIReader.hpp">
+      <Filter>X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\glTF\glTFCommon.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\glTF\glTFAsset.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\glTF\glTFAsset.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\glTF\glTFAssetWriter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\glTF\glTFAssetWriter.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\glTF\glTFImporter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\glTF2\glTF2Asset.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\glTF2\glTF2Asset.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\glTF2\glTF2AssetWriter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\glTF2\glTF2AssetWriter.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\glTF2\glTF2Importer.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\3MF\D3MFImporter.h">
+      <Filter>3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\3MF\D3MFOpcPackage.h">
+      <Filter>3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\3MF\3MFXmlTags.h">
+      <Filter>3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\MMD\MMDCpp14.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\MMD\MMDImporter.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\MMD\MMDPmdParser.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\MMD\MMDPmxParser.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\MMD\MMDVmdParser.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Step\STEPFile.h">
+      <Filter>STEP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Importer\StepFile\StepFileImporter.h">
+      <Filter>STEP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Importer\StepFile\StepReaderGen.h">
+      <Filter>STEP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\3DS\3DSExporter.h">
+      <Filter>3DS_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Assbin\AssbinExporter.h">
+      <Filter>ASSBIN_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Assxml\AssxmlExporter.h">
+      <Filter>ASSXML_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Collada\ColladaExporter.h">
+      <Filter>COLLADA_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\M3D\M3DExporter.h">
+      <Filter>M3D_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Obj\ObjExporter.h">
+      <Filter>OBJ_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\OpenGEX\OpenGEXExporter.h">
+      <Filter>OPENGEX_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Ply\PlyExporter.h">
+      <Filter>PLY_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\FBX\FBXExporter.h">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\FBX\FBXExportNode.h">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\FBX\FBXExportProperty.h">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\STL\STLExporter.h">
+      <Filter>STL_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\X\XFileExporter.h">
+      <Filter>X_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\X3D\X3DExporter.hpp">
+      <Filter>X3D_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\glTF\glTFExporter.h">
+      <Filter>GLTF_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\glTF2\glTF2Exporter.h">
+      <Filter>GLTF_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\3MF\D3MFExporter.h">
+      <Filter>3MF_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Assjson\cencode.h">
+      <Filter>ASSJSON_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Assjson\mesh_splitter.h">
+      <Filter>ASSJSON_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\Step\StepExporter.h">
+      <Filter>STEP_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\irrXMLWrapper.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\unzip\crypt.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\unzip\ioapi.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\unzip\unzip.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\poly2tri\poly2tri\common\shapes.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\poly2tri\poly2tri\common\utils.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\poly2tri\poly2tri\sweep\cdt.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\poly2tri\poly2tri\sweep\sweep.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\clipper\clipper.hpp">
+      <Filter>Contrib\Clipper</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\openddlparser\include\openddlparser\OpenDDLParser.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\openddlparser\include\openddlparser\OpenDDLParserUtils.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\openddlparser\include\openddlparser\OpenDDLCommon.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\openddlparser\include\openddlparser\OpenDDLExport.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\openddlparser\include\openddlparser\OpenDDLStream.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\openddlparser\include\openddlparser\DDLNode.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\openddlparser\include\openddlparser\Value.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\Open3DGC\o3dgcAdjacencyInfo.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\Open3DGC\o3dgcArithmeticCodec.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\Open3DGC\o3dgcBinaryStream.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\Open3DGC\o3dgcCommon.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\Open3DGC\o3dgcDVEncodeParams.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\Open3DGC\o3dgcDynamicVectorDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\Open3DGC\o3dgcDynamicVectorEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\Open3DGC\o3dgcDynamicVector.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\Open3DGC\o3dgcFIFO.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\Open3DGC\o3dgcIndexedFaceSet.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\Open3DGC\o3dgcIndexedFaceSet.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\Open3DGC\o3dgcSC3DMCDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\Open3DGC\o3dgcSC3DMCDecoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\Open3DGC\o3dgcSC3DMCEncodeParams.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\Open3DGC\o3dgcSC3DMCEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\Open3DGC\o3dgcSC3DMCEncoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\Open3DGC\o3dgcTimer.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\Open3DGC\o3dgcTriangleFans.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\Open3DGC\o3dgcTriangleListDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\Open3DGC\o3dgcTriangleListDecoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\Open3DGC\o3dgcTriangleListEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\Open3DGC\o3dgcTriangleListEncoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\Open3DGC\o3dgcVector.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\Open3DGC\o3dgcVector.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\zip\src\miniz.h">
+      <Filter>ziplib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\zip\src\zip.h">
+      <Filter>ziplib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\anim.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\aabb.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\ai_assert.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\camera.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\color4.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\color4.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\build-vs15\include\assimp\config.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\defs.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\Defines.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\cfileio.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\light.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\material.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\material.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\matrix3x3.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\matrix3x3.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\matrix4x4.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\matrix4x4.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\mesh.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\pbrmaterial.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\postprocess.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\quaternion.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\quaternion.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\scene.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\metadata.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\texture.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\types.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\vector2.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\vector2.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\vector3.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\vector3.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\version.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\cimport.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\importerdesc.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\Importer.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\ProgressHandler.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\IOStream.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\IOSystem.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\cexport.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\Exporter.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\DefaultIOStream.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\DefaultIOSystem.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\ZipArchiveIOSystem.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\SceneCombiner.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\fast_atof.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\qnan.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\BaseImporter.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\Hash.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\MemoryIOWrapper.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\ParsingUtils.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\StreamReader.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\StreamWriter.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\StringComparison.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\StringUtils.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\SGSpatialSort.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\GenericProperty.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\SpatialSort.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\SkeletonMeshBuilder.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\SmoothingGroups.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\SmoothingGroups.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\StandardShapes.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\RemoveComments.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\Subdivision.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\Vertex.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\LineSplitter.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\TinyFormatter.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\Profiler.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\LogAux.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\Bitmap.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\XMLTools.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\IOStreamBuffer.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\CreateAnimMesh.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\MathFunctions.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\Exceptional.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\ByteSwapper.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\Compiler\pushpack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\Compiler\poppack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\include\assimp\Compiler\pstdint.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\code\res\assimp.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="3D">
+      <UniqueIdentifier>{C9DF6FF2-CB5D-3771-BE80-124322640AC9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DS">
+      <UniqueIdentifier>{0E73E700-D78B-36D7-8C2A-A203257031CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DS_EXPORTER">
+      <UniqueIdentifier>{509D19BE-9703-3AB6-9945-BAB293041296}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3MF">
+      <UniqueIdentifier>{879562E1-D9C9-34EE-AAB2-4D8E4140A77B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3MF_EXPORTER">
+      <UniqueIdentifier>{82A506C0-17EA-32F9-B198-7A36CC33F11C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AC">
+      <UniqueIdentifier>{3C3225D9-4296-32F3-A30A-60C52EEA5554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AMF">
+      <UniqueIdentifier>{4F9B986C-4B35-327D-AF4E-D8D402E32E0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASE">
+      <UniqueIdentifier>{F2348375-CDF6-32A9-868A-6751C8BAE4A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSBIN">
+      <UniqueIdentifier>{3F7951CE-8064-349D-9163-CAFDEC6F711E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSBIN_EXPORTER">
+      <UniqueIdentifier>{03DDD837-6C45-3341-BEF6-7A1D87B06F44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSJSON_EXPORTER">
+      <UniqueIdentifier>{C852A095-4D3B-3CD7-97B2-7BB060A5CDB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSXML_EXPORTER">
+      <UniqueIdentifier>{6A3E46E2-5D62-30FC-ADC1-0BA8E7074AC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="B3D">
+      <UniqueIdentifier>{09B4C4C6-2A6E-31FA-A333-745F2135A0A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BLEND">
+      <UniqueIdentifier>{758B2F70-7B46-350B-B276-A39180C9E330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BVH">
+      <UniqueIdentifier>{E38A758C-1CEF-368E-8BDF-2790571F32FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CApi">
+      <UniqueIdentifier>{329756CE-0AF6-3A46-A151-C6370AB4A45D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COB">
+      <UniqueIdentifier>{D479903D-CE99-322A-9DF4-02338CF1759E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COLLADA">
+      <UniqueIdentifier>{5338F4AE-7036-3F24-908A-43C2060C463E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COLLADA_EXPORTER">
+      <UniqueIdentifier>{8623AAC3-0719-3996-B7B0-DCD73E559ACD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSM">
+      <UniqueIdentifier>{4292BE59-C8BD-3174-9E96-D09F4431F544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{0FE05925-59AF-3B2A-AE9A-D6FDF589FBE6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compiler">
+      <UniqueIdentifier>{00B16508-6D2A-3787-836D-963E7B957EDB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib">
+      <UniqueIdentifier>{E0FDC5C1-DCBF-3B1E-973B-851F052832D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\Clipper">
+      <UniqueIdentifier>{D52A7679-7DA3-314F-B139-87ABD6C3377F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\Poly2Tri">
+      <UniqueIdentifier>{C8B78BE6-35E8-3282-A6C1-D0029C9B9D71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\open3dgc">
+      <UniqueIdentifier>{DBC0A276-31C3-3487-A34B-63949CD1914E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\openddl_parser">
+      <UniqueIdentifier>{30E3158A-93C3-3420-88AD-512C1DD212A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\unzip">
+      <UniqueIdentifier>{C62845DD-C340-30AD-97AA-B3F8C2D96A74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXF">
+      <UniqueIdentifier>{B77A84A4-BB4E-3849-877A-D011F350C001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exporter">
+      <UniqueIdentifier>{A7E94E7B-F6F0-3B2F-8695-AC42B62F27EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBX">
+      <UniqueIdentifier>{B1DAA396-E46B-3800-B75B-26F637328039}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBX_EXPORTER">
+      <UniqueIdentifier>{8545D559-5EA5-361E-BBDD-C4119D4DDA25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLTF">
+      <UniqueIdentifier>{3993028A-22C2-31AA-BB7E-7767D995B856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLTF_EXPORTER">
+      <UniqueIdentifier>{1C3FFA2C-5DCA-3235-A950-472653484BC8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HMP">
+      <UniqueIdentifier>{81B3FB9B-5AB5-3FCD-9FF2-2EAAD54EC456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IFC">
+      <UniqueIdentifier>{7FF56827-A7DF-3C72-9311-5B41F1E8DF1E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IRR">
+      <UniqueIdentifier>{BEA2AF2E-AE81-3656-A8B4-5778A819BED0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IRRMESH">
+      <UniqueIdentifier>{6B678986-8DAA-3FBA-8EFD-EC0D619DCB1F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LWO">
+      <UniqueIdentifier>{7E24AC90-19D6-31C8-BE64-ADA5B4D811F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LWS">
+      <UniqueIdentifier>{6854F414-3ABF-3395-9E30-ECCE8D2E5C87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{92B593B1-582C-33F9-96A7-3ABAB8533187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="M3D">
+      <UniqueIdentifier>{A53EAA9E-6B9F-31D7-8F26-B2CC971E13EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="M3D_EXPORTER">
+      <UniqueIdentifier>{5D8A1452-480F-3500-ACAB-17EAA2D52C6B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD2">
+      <UniqueIdentifier>{ED18220A-56CE-3FEC-8CB1-500F70C39658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD3">
+      <UniqueIdentifier>{8299D9D7-200B-3DCA-A5AB-A189BE9E4E06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD5">
+      <UniqueIdentifier>{4EB73F90-EDFE-3F32-996A-231C0E849D5F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDC">
+      <UniqueIdentifier>{78B90C18-5F46-3A07-B361-7BA3374C06DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDL">
+      <UniqueIdentifier>{851B39F2-A5CD-38DC-B7B9-A902B0AFDC4D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMD">
+      <UniqueIdentifier>{F90C8E12-1479-357D-A910-9AF3C020A794}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MS3D">
+      <UniqueIdentifier>{8AD25927-8EEB-3469-B7C8-1FF4BA59771F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MaterialSystem">
+      <UniqueIdentifier>{EB5512DB-F402-3571-8DA1-5BE224F24003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NDO">
+      <UniqueIdentifier>{CC8192DA-CA2F-32BF-98CE-EF0275E1BA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NFF">
+      <UniqueIdentifier>{6CDB9C09-B57C-3BDB-A4C4-94DF27FE25AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJ">
+      <UniqueIdentifier>{88095517-C22D-3989-B6D9-86D2103BE92B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJ_EXPORTER">
+      <UniqueIdentifier>{243434D4-A01F-3F0D-AC15-C44D353A725A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OFF">
+      <UniqueIdentifier>{C8C2EED2-A6E4-3A9E-9BFB-C1B92C278ED1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OGRE">
+      <UniqueIdentifier>{8A7D3372-F6C0-3905-BC3E-EF7B17B2D0B5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OPENGEX">
+      <UniqueIdentifier>{E273DB44-37FD-3F4B-BA5D-B22CA6336F6C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OPENGEX_EXPORTER">
+      <UniqueIdentifier>{BB5406A9-F3D6-3A7B-907F-01D66A25BE15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PLY">
+      <UniqueIdentifier>{D1FA9CBD-5B75-3CDB-B7F1-69B746011486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PLY_EXPORTER">
+      <UniqueIdentifier>{16169A44-DF6A-385A-ACF4-0EFDFEE9361A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessing">
+      <UniqueIdentifier>{CC604E92-9A09-3E8A-90A0-7B6259B462BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Q3BSP">
+      <UniqueIdentifier>{101FDC34-EBC4-3457-85F7-9F98DC2F2298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Q3D">
+      <UniqueIdentifier>{0ED8BE7B-425D-3A57-B47A-ACD488CE4FE4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAW">
+      <UniqueIdentifier>{77A8062F-618C-3DED-92F4-8C5302F62593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SIB">
+      <UniqueIdentifier>{03ED8EB1-7A3D-3E6A-9525-127C45F78274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SMD">
+      <UniqueIdentifier>{DBF0283D-FD2F-36E8-885C-F11065EDAE3D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STEP">
+      <UniqueIdentifier>{1FF6EF58-AEB2-3B35-AF50-280979B9F9C4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STEPParser">
+      <UniqueIdentifier>{9C5B31C3-005A-3403-83D7-AE583C6C4B38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STEP_EXPORTER">
+      <UniqueIdentifier>{68584CD7-9BCD-340A-A4FE-6D1EB95C9687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STL">
+      <UniqueIdentifier>{864FC6BC-5B41-3028-A2F0-B978075E0C40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STL_EXPORTER">
+      <UniqueIdentifier>{5DAACA95-F08F-39F8-BAF0-69D123106F64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4717C915-5442-3090-B81D-4A441D9676E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TERRAGEN">
+      <UniqueIdentifier>{5D91A62C-A1BF-3AE6-83F7-FF428B2F611D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X">
+      <UniqueIdentifier>{B2C95012-AE51-35B6-AE53-F80D7F7642AD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X3D">
+      <UniqueIdentifier>{4F0751F3-2EF8-3241-9527-D8D9AC567845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X3D_EXPORTER">
+      <UniqueIdentifier>{1CFB4D3E-3D1B-38B4-934D-02B8EEBBC827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XGL">
+      <UniqueIdentifier>{485F51AD-D576-308B-A5AC-EDA8D1CDDEFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_EXPORTER">
+      <UniqueIdentifier>{DF76CF8F-6888-3435-92E7-8844C24A05AC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{EF7EDB4E-C644-3398-8A1D-91725C5D320C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\assimp">
+      <UniqueIdentifier>{0C52602C-385B-37BF-8E7D-316D4554B467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ziplib">
+      <UniqueIdentifier>{C55DAE53-1E11-318F-9F3A-C2D2A1AA0F11}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
