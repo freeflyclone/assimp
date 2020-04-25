@@ -111,3 +111,5 @@ Debug
 /build/contrib/lib64
 Release
 lib64
+
+/build-vs15
