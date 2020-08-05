@@ -1,8 +1,8 @@
 #ifndef ASSIMP_REVISION_H_INC
 #define ASSIMP_REVISION_H_INC
 
-#define GitVersion 0x6117c3f5
-#define GitBranch "master"
+#define GitVersion 0x3f78045d
+#define GitBranch "HEAD"
 
 #define VER_MAJOR 5
 #define VER_MINOR 0
@@ -16,13 +16,13 @@
 #if (GitVersion == 0)
 #define VER_FILEVERSION_STR         STR(VER_MAJOR) "." STR(VER_MINOR) "." STR(VER_PATCH) "." STR(VER_BUILD)
 #else
-#define VER_FILEVERSION_STR         STR(VER_MAJOR) "." STR(VER_MINOR) "." STR(VER_PATCH) "." STR(VER_BUILD) " (Commit 6117c3f5)"
+#define VER_FILEVERSION_STR         STR(VER_MAJOR) "." STR(VER_MINOR) "." STR(VER_PATCH) "." STR(VER_BUILD) " (Commit 3f78045d)"
 #endif
 
 #ifdef  NDEBUG
-#define VER_ORIGINAL_FILENAME_STR   "assimp-vc120-mt.dll"
+#define VER_ORIGINAL_FILENAME_STR   "assimp-vc141-mt.dll"
 #else
-#define VER_ORIGINAL_FILENAME_STR   "assimp-vc120-mtd.dll"
+#define VER_ORIGINAL_FILENAME_STR   "assimp-vc141-mtd.dll"
 #endif //  NDEBUG
 
 #endif // ASSIMP_REVISION_H_INC

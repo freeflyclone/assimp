@@ -1,13 +1,13 @@
-IF(NOT EXISTS "C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/install_manifest.txt")
-  MESSAGE(FATAL_ERROR "Cannot find install manifest: \"C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/install_manifest.txt\"")
-ENDIF(NOT EXISTS "C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/install_manifest.txt")
+IF(NOT EXISTS "C:/src/madstyle/xclass/3rdParty/assimp/build/install_manifest.txt")
+  MESSAGE(FATAL_ERROR "Cannot find install manifest: \"C:/src/madstyle/xclass/3rdParty/assimp/build/install_manifest.txt\"")
+ENDIF(NOT EXISTS "C:/src/madstyle/xclass/3rdParty/assimp/build/install_manifest.txt")
 
-FILE(READ "C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/install_manifest.txt" files)
+FILE(READ "C:/src/madstyle/xclass/3rdParty/assimp/build/install_manifest.txt" files)
 STRING(REGEX REPLACE "\n" ";" files "${files}")
 FOREACH(file ${files})
   MESSAGE(STATUS "Uninstalling \"$ENV{DESTDIR}${file}\"")
   EXEC_PROGRAM(
-    "C:/CMake/bin/cmake.exe" ARGS "-E remove \"$ENV{DESTDIR}${file}\""
+    "C:/Program Files/CMake/bin/cmake.exe" ARGS "-E remove \"$ENV{DESTDIR}${file}\""
     OUTPUT_VARIABLE rm_out
     RETURN_VALUE rm_retval
     )

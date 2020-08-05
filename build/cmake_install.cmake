@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/evan/src/madstyle/xclass/3rdParty/assimp
+# Install script for directory: C:/src/madstyle/xclass/3rdParty/assimp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files/Assimp")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Assimp")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,25 +34,24 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlibassimp5.0.0-devx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/assimp-5.0" TYPE FILE FILES
-    "C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/assimp-config.cmake"
-    "C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/assimp-config-version.cmake"
-    "C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/assimpTargets.cmake"
-    "C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/assimpTargets-debug.cmake"
-    "C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/assimpTargets-release.cmake"
+    "C:/src/madstyle/xclass/3rdParty/assimp/build/assimp-config.cmake"
+    "C:/src/madstyle/xclass/3rdParty/assimp/build/assimp-config-version.cmake"
+    "C:/src/madstyle/xclass/3rdParty/assimp/build/assimpTargets.cmake"
+    "C:/src/madstyle/xclass/3rdParty/assimp/build/assimpTargets-debug.cmake"
+    "C:/src/madstyle/xclass/3rdParty/assimp/build/assimpTargets-release.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlibassimp5.0.0-devx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/assimp.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/src/madstyle/xclass/3rdParty/assimp/build/assimp.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/contrib/zlib/cmake_install.cmake")
-  include("C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/contrib/cmake_install.cmake")
-  include("C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/code/cmake_install.cmake")
-  include("C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/tools/assimp_view/cmake_install.cmake")
-  include("C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/tools/assimp_cmd/cmake_install.cmake")
+  include("C:/src/madstyle/xclass/3rdParty/assimp/build/contrib/zlib/cmake_install.cmake")
+  include("C:/src/madstyle/xclass/3rdParty/assimp/build/contrib/cmake_install.cmake")
+  include("C:/src/madstyle/xclass/3rdParty/assimp/build/code/cmake_install.cmake")
+  include("C:/src/madstyle/xclass/3rdParty/assimp/build/test/cmake_install.cmake")
 
 endif()
 
@@ -64,5 +63,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/src/madstyle/xclass/3rdParty/assimp/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

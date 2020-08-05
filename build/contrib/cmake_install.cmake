@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/contrib
+# Install script for directory: C:/src/madstyle/xclass/3rdParty/assimp/contrib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files/Assimp")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Assimp")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/contrib/irrXML/cmake_install.cmake")
+  include("C:/src/madstyle/xclass/3rdParty/assimp/build/contrib/irrXML/cmake_install.cmake")
 
 endif()
 

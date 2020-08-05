@@ -5,7 +5,7 @@ if("${CMAKE_MAJOR_VERSION}.${CMAKE_MINOR_VERSION}" LESS 2.5)
 endif()
 cmake_policy(PUSH)
 cmake_policy(VERSION 2.6)
-# Required for the evaluation of "if(OFF)" below to function
+# Required for the evaluation of "if(ON)" below to function
 cmake_policy(SET CMP0012 NEW)
 
 #----------------------------------------------------------------
@@ -54,7 +54,7 @@ if(_IMPORT_PREFIX STREQUAL "/")
 endif()
 
 # Create imported target assimp::assimp
-add_library(assimp::assimp STATIC IMPORTED)
+add_library(assimp::assimp SHARED IMPORTED)
 
 set_target_properties(assimp::assimp PROPERTIES
   COMPATIBLE_INTERFACE_STRING "assimp_MAJOR_VERSION"

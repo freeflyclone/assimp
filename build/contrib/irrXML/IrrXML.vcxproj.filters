@@ -1,39 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\irrXML\irrXML.cpp">
+    <ClCompile Include="C:\src\madstyle\xclass\3rdParty\assimp\contrib\irrXML\irrXML.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\irrXML\CXMLReaderImpl.h">
+    <ClInclude Include="C:\src\madstyle\xclass\3rdParty\assimp\contrib\irrXML\CXMLReaderImpl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\irrXML\heapsort.h">
+    <ClInclude Include="C:\src\madstyle\xclass\3rdParty\assimp\contrib\irrXML\heapsort.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\irrXML\irrArray.h">
+    <ClInclude Include="C:\src\madstyle\xclass\3rdParty\assimp\contrib\irrXML\irrArray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\irrXML\irrString.h">
+    <ClInclude Include="C:\src\madstyle\xclass\3rdParty\assimp\contrib\irrXML\irrString.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\irrXML\irrTypes.h">
+    <ClInclude Include="C:\src\madstyle\xclass\3rdParty\assimp\contrib\irrXML\irrTypes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\irrXML\irrXML.h">
+    <ClInclude Include="C:\src\madstyle\xclass\3rdParty\assimp\contrib\irrXML\irrXML.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\evan\src\madstyle\xclass\3rdParty\assimp\contrib\irrXML\CMakeLists.txt" />
+    <CustomBuild Include="C:\src\madstyle\xclass\3rdParty\assimp\contrib\irrXML\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{48674108-9F25-3D9E-A179-968E8EA30282}</UniqueIdentifier>
+      <UniqueIdentifier>{DB532EAD-17EE-3ED9-B7DF-290D341CAD88}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{AF686BBC-CDB8-3583-A54B-FD2291D4D357}</UniqueIdentifier>
+      <UniqueIdentifier>{01ABF498-FFF7-3084-82C0-57EC5BDFF988}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

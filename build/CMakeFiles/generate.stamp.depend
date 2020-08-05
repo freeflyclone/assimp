@@ -1,45 +1,41 @@
 # CMake generation dependency list for this directory.
-C:/CMake/share/cmake-3.13/Modules/CMakeCInformation.cmake
-C:/CMake/share/cmake-3.13/Modules/CMakeCXXInformation.cmake
-C:/CMake/share/cmake-3.13/Modules/CMakeCommonLanguageInclude.cmake
-C:/CMake/share/cmake-3.13/Modules/CMakeGenericSystem.cmake
-C:/CMake/share/cmake-3.13/Modules/CMakeInitializeConfigs.cmake
-C:/CMake/share/cmake-3.13/Modules/CMakeLanguageInformation.cmake
-C:/CMake/share/cmake-3.13/Modules/CMakeParseArguments.cmake
-C:/CMake/share/cmake-3.13/Modules/CMakeRCInformation.cmake
-C:/CMake/share/cmake-3.13/Modules/CMakeSystemSpecificInformation.cmake
-C:/CMake/share/cmake-3.13/Modules/CMakeSystemSpecificInitialize.cmake
-C:/CMake/share/cmake-3.13/Modules/CheckFunctionExists.cmake
-C:/CMake/share/cmake-3.13/Modules/CheckIncludeFile.cmake
-C:/CMake/share/cmake-3.13/Modules/CheckIncludeFileCXX.cmake
-C:/CMake/share/cmake-3.13/Modules/CheckTypeSize.cmake
-C:/CMake/share/cmake-3.13/Modules/Compiler/CMakeCommonCompilerMacros.cmake
-C:/CMake/share/cmake-3.13/Modules/Compiler/MSVC-C.cmake
-C:/CMake/share/cmake-3.13/Modules/Compiler/MSVC-CXX.cmake
-C:/CMake/share/cmake-3.13/Modules/FindPackageHandleStandardArgs.cmake
-C:/CMake/share/cmake-3.13/Modules/FindPackageMessage.cmake
-C:/CMake/share/cmake-3.13/Modules/FindPkgConfig.cmake
-C:/CMake/share/cmake-3.13/Modules/Platform/Windows-MSVC-C.cmake
-C:/CMake/share/cmake-3.13/Modules/Platform/Windows-MSVC-CXX.cmake
-C:/CMake/share/cmake-3.13/Modules/Platform/Windows-MSVC.cmake
-C:/CMake/share/cmake-3.13/Modules/Platform/Windows.cmake
-C:/CMake/share/cmake-3.13/Modules/Platform/WindowsPaths.cmake
-C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/CMakeLists.txt
-C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/assimp-config-version.cmake.in
-C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/assimp-config.cmake.in
-C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/assimp.pc.in
-C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/assimpTargets-debug.cmake.in
-C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/assimpTargets-release.cmake.in
-C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/assimpTargets.cmake.in
-C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/CMakeFiles/3.13.4/CMakeCCompiler.cmake
-C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/CMakeFiles/3.13.4/CMakeCXXCompiler.cmake
-C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/CMakeFiles/3.13.4/CMakeRCCompiler.cmake
-C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/build/CMakeFiles/3.13.4/CMakeSystem.cmake
-C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/cmake-modules/FindDirectX.cmake
-C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/cmake-modules/FindPkgMacros.cmake
-C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/cmake-modules/FindZLIB.cmake
-C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/cmake-modules/PrecompiledHeader.cmake
-C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/cmake-modules/cmake_uninstall.cmake.in
-C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/cmake/HunterGate.cmake
-C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/include/assimp/config.h.in
-C:/Users/evan/src/madstyle/xclass/3rdParty/assimp/revision.h.in
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Platform/WindowsPaths.cmake
+C:/src/madstyle/xclass/3rdParty/assimp/CMakeLists.txt
+C:/src/madstyle/xclass/3rdParty/assimp/assimp-config-version.cmake.in
+C:/src/madstyle/xclass/3rdParty/assimp/assimp-config.cmake.in
+C:/src/madstyle/xclass/3rdParty/assimp/assimp.pc.in
+C:/src/madstyle/xclass/3rdParty/assimp/assimpTargets-debug.cmake.in
+C:/src/madstyle/xclass/3rdParty/assimp/assimpTargets-release.cmake.in
+C:/src/madstyle/xclass/3rdParty/assimp/assimpTargets.cmake.in
+C:/src/madstyle/xclass/3rdParty/assimp/build/CMakeFiles/3.17.1/CMakeCCompiler.cmake
+C:/src/madstyle/xclass/3rdParty/assimp/build/CMakeFiles/3.17.1/CMakeCXXCompiler.cmake
+C:/src/madstyle/xclass/3rdParty/assimp/build/CMakeFiles/3.17.1/CMakeRCCompiler.cmake
+C:/src/madstyle/xclass/3rdParty/assimp/build/CMakeFiles/3.17.1/CMakeSystem.cmake
+C:/src/madstyle/xclass/3rdParty/assimp/cmake-modules/FindDirectX.cmake
+C:/src/madstyle/xclass/3rdParty/assimp/cmake-modules/FindPkgMacros.cmake
+C:/src/madstyle/xclass/3rdParty/assimp/cmake-modules/PrecompiledHeader.cmake
+C:/src/madstyle/xclass/3rdParty/assimp/cmake-modules/cmake_uninstall.cmake.in
+C:/src/madstyle/xclass/3rdParty/assimp/cmake/HunterGate.cmake
+C:/src/madstyle/xclass/3rdParty/assimp/include/assimp/config.h.in
+C:/src/madstyle/xclass/3rdParty/assimp/revision.h.in
